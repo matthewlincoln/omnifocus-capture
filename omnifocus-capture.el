@@ -5,7 +5,7 @@
 ;; your .emacs:
 ;;
 ;; (autoload 'send-region-to-omnifocus "omnifocus-capture" "Send region to OmniFocus" t)
-;; (global-set-key (kbd "C-c o") 'send-region-to-omnifocus)
+;; (global-set-key (kbd "C-c C-o") 'send-region-to-omnifocus)
 ;;
 ;; The send-region-to-emacs function has been rewritten as follows:
 ;; * It now uses `do-applescript' instead of writing a temporary script file.
