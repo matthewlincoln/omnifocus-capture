@@ -13,6 +13,15 @@
 ;; * Subsequent lines of the region are used as the task note.
 ;; * "Added from Emacs on <current date>" is appended to the end of the note.
 ;;
+;; References:
+;;
+;; 1. Sending text from Emacs to OmniFocus by Ken Case
+;;    http://forums.omnigroup.com/showthread.php?t=12115
+;; 2. Omnifocus Quick Entry from Emacs by Tim Prouty
+;;    http://timprouty-tech.blogspot.com/2009/08/omnifocus-quick-entry-from-emacs.html
+;; 3. omnifocus.el by Rob Bevan
+;;    https://github.com/robbevan/omnifocus.el
+;;
 ;; See http://jblevins.org/log/emacs-omnifocus for details.
 
 (defun applescript-quote-string (argument)
