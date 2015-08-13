@@ -8,6 +8,7 @@
 ;; (global-set-key (kbd "C-c C-o") 'send-region-to-omnifocus)
 ;;
 ;; The send-region-to-emacs function has been rewritten as follows:
+;; * The task is sent directly to the Inbox rather than the quick entry window.
 ;; * It now uses `do-applescript' instead of writing a temporary script file.
 ;; * The first line of the region is used as the name of the task
 ;; * Subsequent lines of the region are used as the task note.
