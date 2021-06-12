@@ -64,4 +64,6 @@ and subsequent lines as the task note."
                 make new inbox task with properties {name:(taskName), note:(taskNote)}
               end tell"
              (applescript-quote-string name)
-             (applescript-quote-string note)))))
+             (applescript-quote-string note)))
+    ;; (message "Sent to OmniFocus: `%s'" name)))
+    (message "Sent to OmniFocus: %s" name)))
